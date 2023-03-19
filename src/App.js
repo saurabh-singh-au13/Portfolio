@@ -1,23 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Myport from "./components/Myport";
+import Myprofile from "./components/Myprofile";
+import Mycv from "./components/Mycv";
+import Mynav from "./components/Mynav";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Mynav />
+      {/* <Myport/>
+      <Myprofile />
+      <Mycv /> */}
+      {/* <ul className="lightrope">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <div>
+        <lord-icon
+          style={{ width: "400px", height: "400px" }}
+          trigger="hover"
+          src="https://cdn.lordicon.com/lupuorrc.json"
+        ></lord-icon>
+
+        <lord-icon
+         style={{ width: "400px", height: "400px" }}
+          src="https://cdn.lordicon.com/dqxvvqzi.json"
+          trigger="hover"
+         
+        ></lord-icon>
+      </div> */}
     </div>
   );
 }
